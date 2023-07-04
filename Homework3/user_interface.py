@@ -78,6 +78,3 @@ def check_gender(sex):
     if sex == 'f' or sex == 'm':
         return sex
     raise Exception("Пол указан не верно")
-
-
-added_person()
